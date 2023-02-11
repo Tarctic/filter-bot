@@ -1,0 +1,20 @@
+{
+  "name": "discord-hello-bot",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
